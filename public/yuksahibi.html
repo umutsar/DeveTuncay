@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yük Sahibinin Websitesi</title>
+    <link rel="stylesheet" href="./CSS/yuksahibi.css">
+</head>
+
+<body>
+    <section>
+        <div id="tirAriyorum">
+            Tır ariyom
+        </div>
+        <div id="ilanVerButonu">
+            İlan ver
+        </div>
+    </section>
+
+
+    <section id="ilanVer">
+        <div>
+            <form action="/gonder" method="post">
+                <label for="konum">Konum:</label>
+                <input type="text" id="konum" name="konum" required><br>
+
+                <label for="hedefKonum">Hedef Konum:</label>
+                <input type="text" id="hedefKonum" name="hedefKonum" required><br>
+
+                <label for="yukMiktari">Yük Miktarı:</label>
+                <input type="text" id="yukMiktari" name="yukMiktari" required><br>
+
+                <label for="fiyatTeklifi">Fiyat Teklifi:</label>
+                <input type="text" id="fiyatTeklifi" name="fiyatTeklifi" required><br>
+
+                <label for="sonTeslimatTarihi">Son Teslimat Tarihi:</label>
+                <input type="text" id="sonTeslimatTarihi" name="sonTeslimatTarihi" required><br>
+
+                <label for="sigortaIstegi">Sigorta İsteği:</label>
+                <input type="checkbox" id="sigortaIstegi" name="sigortaIstegi" value="yes"><br>
+
+                <label for="isTanimi">İş Tanımı:</label>
+                <input type="text" id="isTanimi" name="isTanimi" required><br>
+
+                <button type="submit">Onayle</button>
+        </div>
+    </section>
+    
+    <script src="./JS/yuksahibi.js"></script>
+</body>
+
+</html>
